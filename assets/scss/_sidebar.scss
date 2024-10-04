@@ -1,0 +1,333 @@
+#left {
+  width: 20%;
+  font-size: 10px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#right {
+  width: 15%;
+}
+
+#left,
+#right {
+  padding-block: 0.7rem;
+}
+
+#left {
+  padding-left: 1rem;
+}
+#right {
+  padding-inline: 0.5rem;
+}
+
+#left > div:first-of-type {
+  padding-bottom: 0.7rem;
+  border-bottom: rgb(123, 117, 117) solid 1px;
+}
+
+#left nav:first-of-type {
+  margin-bottom: 2rem;
+}
+
+#left nav:nth-of-type(2) {
+  font-size: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.icons {
+  margin-right: 0.3rem;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  position: relative;
+}
+
+.icons i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+.creaPlaylist,
+.branip,
+.tuoiEpisodi {
+  padding: 0.2rem;
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+.creaPlaylist {
+  background: rgb(255 255 255 / 0.9);
+  color: black;
+}
+
+.branip {
+  background: rgb(68, 29, 180);
+  background: linear-gradient(150deg, rgba(68, 29, 180, 1) 47%, rgba(114, 126, 143, 1) 100%);
+}
+
+.tuoiEpisodi {
+  background: #004537;
+  color: #1ed760;
+}
+
+#left ul li {
+  padding-block: 0.2rem;
+}
+
+#left ul li a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+// #scrollable-playlists ul {
+//   height: calc(50vh);
+//   overflow: hidden;
+//   padding-block: 0.5rem;
+//   // height: 300px;
+//   // overflow-y: auto;
+//   scrollbar-color: #060606 #060606
+
+// }
+
+#scrollable-playlists ul li {
+  padding-block: 0.3rem;
+  margin-bottom: 0.2rem;
+}
+
+#scrollable-playlists ul li a {
+  color: rgb(255 255 255 / 0.5);
+  font-size: 0.8rem;
+}
+
+/* -----------------dx */
+
+.sidebar-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  //   background-color:#000000 ;
+  // }
+
+  .header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .title-right {
+    font-size: 15px;
+  }
+
+  .buttons-right button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+  .profile-image {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .heading-center {
+    font-size: 10px;
+    margin: 5px 0;
+  }
+
+  .description-center,
+  .info-center,
+  .additional-text {
+    margin: 5px 0;
+  }
+
+  .description-center,
+  .info-center,
+  .additional-text {
+    margin: 5px 0;
+    font-size: 10px;
+  }
+
+  .container-right {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  .container-right h3 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+
+  .container-right p {
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+  }
+
+  .container-right > div:first-of-type {
+    padding-right: 0.5rem;
+  }
+
+  .container-right > div:nth-of-type(2) {
+    flex-grow: 1;
+  }
+
+  .container-right > div:nth-of-type(2) > p:nth-of-type(2) {
+    display: flex;
+    gap: 0.2rem;
+  }
+
+  .container-right > div > p:first-of-type {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .dot {
+    width: 0.2rem;
+    height: 0.2rem;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  #right {
+    width: 15%;
+
+    color: white;
+  }
+
+  #scrollable-playlists {
+    height: 50vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #4d4d4d #000000;
+  }
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-right {
+  font-size: 15px;
+}
+
+.buttons-right button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.profile-image {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.heading-center {
+  font-size: 10px;
+  margin: 5px 0;
+}
+
+.description-center,
+.info-center,
+.additional-text {
+  margin: 5px 0;
+}
+
+.description-center,
+.info-center,
+.additional-text {
+  margin: 5px 0;
+  font-size: 10px;
+}
+
+.container-right {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.container-right h3 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.container-right p {
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.container-right > div:first-of-type {
+  padding-right: 0.5rem;
+}
+
+.container-right > div:nth-of-type(2) {
+  flex-grow: 1;
+}
+
+.container-right > div:nth-of-type(2) > p:nth-of-type(2) {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.container-right > div > p:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.dot {
+  width: 0.2rem;
+  height: 0.2rem;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#right {
+  width: 15%;
+  color: white;
+}
+
+#scrollable-playlists {
+  height: 50vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #4d4d4d #000000;
+}
+
+@media screen and (max-width: 992px) {
+  #left {
+    display: none;
+  }
+
+  #right {
+    display: none;
+  }
+}

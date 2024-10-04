@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/circular-font.css" />
+    <title>Spotify Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body id="artist">
+    <div class="wrapper">
+      <aside id="left" class="bg-black">
+        <div>
+          <nav>
+            <ul>
+              <li>
+                <a href="./index.html">
+                  <div class="icons">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./index.html">
+                  <div class="icons">
+                    <i class="fa-solid fa-house"></i>
+                  </div>
+                  <span>Home</span>
+                </a>
+              </li>
+              <li>
+                <a id="searchBar" href="#">
+                  <div class="icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                  <span>Cerca</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="icons">
+                    <i class="fa-solid fa-book"></i>
+                  </div>
+                  <span>La tua libreria</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav>
+            <ul>
+              <li>
+                <a href="#"
+                  ><div class="icons creaPlaylist">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <span>Crea playlist</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="icons branip"><i class="fas fa-heart"></i></div>
+                  <span>Brani che ti piacciono</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="icons tuoiEpisodi">
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+                  <span>I tuoi episodi</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <section id="scrollable-playlists">
+          <ul>
+            <li><a href="#">early stage emily syndrome(sett-ott 2022)</a></li>
+            <li><a href="#">Be The Young </a></li>
+            <li><a href="#">"..." cit.Kimko (lug-ago 2022)</a></li>
+            <li><a href="#">saggio vibes</a></li>
+            <li><a href="#">main character energy(mag-giu2022)</a></li>
+            <li><a href="#">that fucking mood </a></li>
+            <li><a href="#">VEE, CARLOTTA E GIACOMO VANNO A BOSIO</a></li>
+            <li><a href="#">An Emily Winchester kind of mood</a></li>
+            <li><a href="#">landing page(mar-apr 2022) </a></li>
+            <li><a href="#">2021 lol</a></li>
+            <li><a href="#">cosa cazzo vuol dire questa affermazione </a></li>
+            <li><a href="#">honey and glass(nov-dic 2021)</a></li>
+            <li><a href="#">(Revenge)Training Arc</a></li>
+            <li><a href="#">Lidia Emily </a></li>
+            <li><a href="#">minecraft e nintendo switch(sept-oct 2021)</a></li>
+            <li>
+              <a href="#">silvano d'orba? I hardly know her(lu-ago 2021) </a>
+            </li>
+            <li><a href="#">Culo 2021 </a></li>
+            <li><a href="#">Frah Quintale Mix </a></li>
+            <li><a href="#">Francesco Guccini mix </a></li>
+          </ul>
+        </section>
+      </aside>
+      <main id="central" class="bg-main">
+        <div id="hero">
+          <div class="main-head">
+            <div class="arrow-group">
+              <div class="arrow"><i class="fa-solid fa-angle-left"></i></div>
+              <div class="arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+            <div class="profile">
+              <img src="https://placehold.co/400" alt="" />
+              <span>Profile Name</span>
+            </div>
+          </div>
+          <div class="hero-content">
+            <div class="verified">
+              <img src="https://img.icons8.com/color/512/instagram-verification-badge.png" alt="" />
+              <h4>Artista verificato</h4>
+            </div>
+            <h1></h1>
+            <h5></h5>
+          </div>
+        </div>
+        <div>
+          <div class="play">
+            <button class="spotify-button">
+              <i class="fa-solid fa-play"></i>
+            </button>
+            <button class="following">FOLLOWING</button>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <section class="artist-section">
+            <div class="left-column">
+              <h2>Popolari</h2>
+              <table>
+                <tbody></tbody>
+              </table>
+              <a class="other-content" href="#">VISUALIZZA ALTRO</a>
+            </div>
+            <div class="right-column">
+              <h2>Brani che ti piacciono</h2>
+              <div>
+                <div class="group-pic">
+                  <img src="https://w0.peakpx.com/wallpaper/831/402/HD-wallpaper-radiohead-alternativo-rock.jpg" alt="band picture" />
+                  <div>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <div>
+                  <h4>Hai messo Mi piace a 20 brani</h4>
+                  <h5></h5>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="search-modal">
+          <div class="search-bar">
+            <form>
+              <input type="text" id="search-input" placeholder="Inserisci parola chiave" autocomplete="off" required />
+              <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+      </main>
+      <aside id="right" class="bg-black sidebar-right">
+        <div class="header-right">
+          <h2 class="title-right">Attività amici</h2>
+          <div class="buttons-right">
+            <button class="btn-add"><i class="fa-solid fa-x"></i></button>
+            <button class="btn-settings">
+              <i class="fa-solid fa-user-plus"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="container-right">
+          <div>
+            <img src="./assets/imgs/x000000000000000000000000.png" alt="Image" class="profile-image" />
+          </div>
+          <div>
+            <h3>Charlie Hookman</h3>
+            <p>In camera <span class="dot"></span> Youmy zouma</p>
+            <p><i class="fa-regular fa-circle-stop"></i>Ep III</p>
+          </div>
+          <div>
+            <p>4 ore</p>
+          </div>
+        </div>
+        <div class="container-right">
+          <div>
+            <img src="./assets/imgs/x1.png" alt="Image" class="profile-image" />
+          </div>
+          <div>
+            <h3>lightdark02</h3>
+            <p>Aimed to kill <span class="dot"></span> Jade LeMac</p>
+            <p><i class="fa-regular fa-circle-stop"></i>Aimed to kill</p>
+          </div>
+          <div class="column-right">
+            <p>8 ore</p>
+          </div>
+        </div>
+        <div class="container-right">
+          <div>
+            <img src="./assets/imgs/xxxxxxxxxxxxxx3.png" alt="Image" class="profile-image" />
+          </div>
+          <div>
+            <h3>Valeria Traverso</h3>
+            <p>
+              <span>New Kings</span> <span class="dot"></span>
+              <span>Sleeping Wolf</span>
+            </p>
+            <p><i class="fa-solid fa-music"></i>Twint Badass mood</p>
+          </div>
+          <div class="column-right">
+            <p>3 giorni</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <footer>
+      <div id="player">
+        <div class="song-info">
+          <img src="./assets/imgs/main/image-1.jpg" alt="Album" />
+          <div class="song-details">
+            <div class="song-title"></div>
+            <div class="song-artist"></div>
+          </div>
+          <button><i class="fa-regular fa-heart"></i></button>
+        </div>
+
+        <div class="progress-bar-container">
+          <div class="controls">
+            <button><i class="fas fa-random"></i></button>
+            <button id="prevTrack"><i class="fas fa-step-backward"></i></button>
+            <button class="playPauseBtn">
+              <i class="fas fa-play-circle btnPauseTrack"></i>
+            </button>
+            <button id="nextTrack"><i class="fas fa-step-forward"></i></button>
+            <button class="loopButton">
+              <i class="fa-solid fa-repeat"></i>
+            </button>
+          </div>
+          <div class="progressBar-time-container">
+            <div class="progress-bar">
+              <div></div>
+            </div>
+            <div class="time"></div>
+          </div>
+        </div>
+        <audio id="playerAudio">
+          <source src="" type="audio/mp3" />
+        </audio>
+        <div class="volume-control">
+          <button><i class="fa-solid fa-microphone"></i></button>
+          <button><i class="fa-solid fa-bars"></i></button>
+          <button><i class="fa-solid fa-tablet-screen-button"></i></button>
+          <button class="speaker"><i class="fas fa-volume-up"></i></button>
+          <input id="rangeAudio" type="range" min="0" max="100" />
+          <button>
+            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+          </button>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/player.js"></script>
+    <script src="./js/tracklist.js"></script>
+    <script src="./js/artist.js"></script>
+  </body>
+</html>
